@@ -29,6 +29,7 @@ exports.addProject = function(req, res) {
   // YOU MUST send an OK response w/ res.send();
   
   //SLIDE 52
+  // adding to top?
   var myProj = new models.Project({
 	 
 	 "title": form_data["project_title"],
